@@ -12,9 +12,8 @@ inp.on("close", () => {
   
 
 
-var obj1 = {"name":"Sam","class":"MCA"};
-
-var obj2 = {"class":"MCA","name":"Sam"};
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
 
 var flag=true;
 
